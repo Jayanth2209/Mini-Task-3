@@ -11,7 +11,7 @@ To build an autonomous, self-contained robot (Micromouse) which can get to the c
 The bot uses an ESP32 Microcontroller and a 5V Power Bank as Power Source.     
 Other components used:     
 VL53L0X Laser ToF Flight Time Ranging Sensor Module - Operational Voltage Range - 2.8V to 5V    
-US-100 Ultrasonic Sensor - Operational Voltage - 2.4V - 5V      
+US-100 Ultrasonic Sensor - Operational Voltage - 2.4V - 5V  (Can be replaced with the much cheaper HC-SR04 Ultrasonic Sensor)     
 N20 6V 100RPM Micro Metal Gear Motor with Encoder - Operational Voltage Range - 3V to 6V     
 
 #### Alternatives:   
