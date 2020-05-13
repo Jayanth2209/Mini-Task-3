@@ -16,7 +16,7 @@ VL53L0X Laser ToF Flight Time Ranging Sensor Module - Operational Voltage Range 
 US-100 Ultrasonic Sensor - Operational Voltage - 2.4V - 5V      
 N20 6V 100RPM Micro Metal Gear Motor with Encoder - Operational Voltage Range - 3V to 6V     
 
-#### Alternative:   
+#### Alternatives:   
 ##### Microcontroller: 
 ESP32 can be replaced with STM32 Microcontroller due to the following reasons :       
 Price - ESP32 costs around 900-1000 INR whereas STM32 costs around 300-400 INR     
@@ -25,5 +25,5 @@ STM32 can be easily interfaced with different kinds of electronic components lik
 STM32 has an operational voltage oof 2.0V to 3.6V and hence can be used with a 5V Power Source.    
 
 ##### IDE:    
-ESP32 can be programmed using Arduino IDE or PlatformIO.     
-
+ESP32 can be programmed using Arduino IDE or PlatformIO.       
+PlatformIO is an open-source Integrated Development Environment is not complicated, reliable and is easy to understand. It is also easier to setup and can be used to program myriad of microcontroller boards easily. 
