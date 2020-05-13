@@ -4,8 +4,8 @@ To integrate different sensors to the Hexapod (18 DOF) and recreate the exact or
 #### Constraints: 
 1) Price    
 2) Reliability of the data      
-3) Delay in the information of the data    
-4) Wiring Ideas     
+3) Delay in the information of the data     
+4) Wiring Ideas - Casing/Taping of all the wires that go to each leg can reduce overcrowding/tangling of the wires  
 
 #### Pipeline:   
 We have to ideate a way for IMU integration with the Hexapod. 18+1(centre) IMU's are used. These have to be connected to a single microcontroller to send data for training the model.        
@@ -23,7 +23,8 @@ Using MPU-6050 IMUs , we can put them all on the I2C bus and connect each IMU's 
 Here we are using 19 IMUs whereas an Arduino UNO/Nano have only 14 digital pins. There are two ways to solve this:     
 ##### 1) Using Mega Versions: 
 Arduino Mega 2560 Microcontroller has 54 digital I/O pins and hence all 19 IMUs can be comfortably interfaced.    
-Advantages : Mega 2560 has higher flash memory (256kB) compared to Uno and can hence support a hefty code. It also has the most SRAM space with 8kb i.e. 4X more than the Uno. It also has 4X more EEPROM than the Uno        
+Advantages : Mega 2560 has higher flash memory (256kB) compared to Uno and can hence support a hefty code. It also has the most SRAM space with 8kb i.e. 4X more than the Uno. It also has 4X more EEPROM than the Uno.      
+Because it processess data faster than the Uno/Micro versions of Arduino, Delay in information of the data could be reduced.     
 Disadvantages : It is large in size and is also more expensive (around 700 INR) than Arduino UNO (around 250 INR)    
 
 ##### 2) Using GPIO Expander: 
