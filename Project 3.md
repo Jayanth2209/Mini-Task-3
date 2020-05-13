@@ -3,8 +3,8 @@
 To build an autonomous, self-contained robot (Micromouse) which can get to the centre of a maze in the shortest possible time. 
 
 ##### Constraints: 
-1) The micromouse can't be larger than 16cm x 16cm x 10 cm    
-2) The micromouse must be self-contained - So, we have to use a portable power source like Power Bank/Batteries    
+1) The micromouse can't be larger than 16cm x 16cm x 10 cm. So it has to be made with components that are small in size and those that can be compactly packed.       
+2) The micromouse must be self-contained - So, we have to use a portable power source like Power Bank/Batteries       
 
 #### Given Solution:
 ##### Dimension: 10cm x 9cm x 9cm    
